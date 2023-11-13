@@ -1,0 +1,35 @@
+---
+title: "Module_12"
+author: "Robert Levine"
+date: "2023-11-13"
+output: html_document
+---
+
+# Introduction
+
+This is a simple R Markdown file created for module 12 of LIS 4370. In the following
+sections there will an FAQ for my upcoming R package, as well as some sample code.
+
+# FAQ
+Q. What will your package be called?
+A. robsentiment
+
+Q. What will your package aim to do?
+A. Provide text sentiment analysis quickly and easily
+
+Q. What are some functions that you will include?
+A. I will include a sentiment score function that will
+quickly tell you the sentiment of text. It will return
+a value that indicates the negativity/positivity.
+I will also have a function that provides tokenization,
+text preprocessing, etc.
+
+
+## R Code Example
+
+Here is an example of R code.
+
+```{r}
+data <- mtcars
+plot(mtcars$mpg, mtcars$hp)
+```
